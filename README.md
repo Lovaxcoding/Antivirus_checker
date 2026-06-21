@@ -19,27 +19,27 @@ Initialement développé en C#, ce projet propose des alternatives modernes en *
 Pour la version Python distante (depuis Kali Linux) :
 ```bash
 pip install impacket
-
+```
 Pour la version utilisant psutil (alternative locale) :
-Bash
 
+```bash
 pip install psutil
-
+```
 💻 Utilisation
 1. Audit distant (Depuis Kali Linux)
 
 Pour scanner une machine Windows cible dans ton Lab :
-Bash
 
+```bash
 python3 av_checker.py <Target_IP> <Username> <Password>
-
+```
 2. Audit local (Windows)
 
 Exécute simplement le script sur la machine cible :
-Bash
+```bash
 
 python av_checker.py
-
+```
 🔍 Liste des signatures supportées
 
 Le script recherche activement les processus des solutions suivantes :
